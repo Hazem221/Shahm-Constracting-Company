@@ -1,0 +1,309 @@
+/* Start Header */
+
+@media (min-width:100px) and (max-width: 1250px) {
+        .header {
+                background: url(../images/header-3.png) no-repeat center, linear-gradient( 140deg, rgba(178, 176, 176, 0.1) 0%, #ffffff 100%);
+                overflow: hidden;
+                background-size: contain;
+                text-align: center;
+        }
+        .header .logo {
+                display: inline-block;
+                padding: 20px 31PX;
+                margin: 0 auto;
+                background: linear-gradient( 140deg, rgba(248, 248, 248, 0.8) 0%, rgba(252, 252, 252, 0.8) 100%);
+        }
+}
+
+
+/* End Header */
+
+
+/* ######################################## */
+@media (min-width:681px) and (max-width: 1199px) {
+        .navbar-collapse{
+                margin: 1%;
+        }
+        .navbar-nav {
+                width: 100%;
+                text-align: center;
+                font-family: fontR;
+                margin: 0 auto;
+        }
+        .nav>li {
+                display: inline-block;
+                transition: all ease-out 0.5s;
+                float: none;
+        }
+        nav .icons {
+                width: 100%;
+                text-align: center;
+        }
+}
+
+@media (min-width:300px) and (max-width: 680px) {
+        .navbar-nav {
+                width: 100%;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                font-family: fontR;
+        }
+        .nav>li {
+                width: 100%;
+                padding: 3%;
+                transition: all 0.4s ease-in-out;
+                text-align: center;
+                margin: 0 auto;
+        }
+        .navbar-default .navbar-nav>li>a {
+                border-left: 0;
+        }
+        .act {
+                border: 0;
+        }
+        nav .icons {
+                width: 100%;
+                text-align: center;
+        }
+}
+
+
+/*###################################################*/
+
+@media (min-width:550px) and (max-width: 991px) {
+        .carousel-control {
+                font-size: 25px;
+        }
+        .shahm_caption {
+                padding: 0;
+                background-position: 0 0;
+        }
+        .shahm_caption h3 {
+                font-size: 18px;
+                right: -6%;
+                padding: 1% 1%;
+        }
+        .shahm_caption p {
+                font-size: 7px;
+                left: 0;
+                top: -10px;
+        }
+        .shahm_caption a {
+                font-size: 10px;
+                right: 3%;
+                top: -20px;
+        }
+        .carousel-caption {
+                left: inherit;
+                right: 0px;
+                bottom: 0px;
+        }
+}
+
+@media (max-width: 550px) {
+        .carousel-control {
+                font-size: 25px;
+        }
+        .shahm_caption {
+                display: none;
+        }
+}
+
+
+@media (min-width:100px) and (max-width:350px) {
+
+        .project .cust h2 {
+                font-size: 14px;
+        }
+}
+
+
+@media (min-width:100px) and (max-width:991px) {
+        .project {
+                margin-top: 1%;
+                background-image: url(../images/PROJECTS/2.png);
+                background-size: cover;
+        }
+        .project .cust {
+                height: auto;
+                margin: 0 auto;
+        }
+        .project .cust h2 {
+                color: #2b3990;
+                background: linear-gradient( 140deg, rgba(248, 248, 248, 0.8) 0%, rgba(252, 252, 252, 0.8) 100%);
+                right: 0%;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 0;
+                padding: 2% 2%;
+                border-right: none;
+                width: 60%;
+        }
+}
+
+
+/* Start Member */
+/*
+@media (min-width:992px) and (max-width: 1199px) {
+        .opcity {
+                top: -10em;
+        }
+        .opcity h3 {
+                font-size: 23px;
+        }
+        .opcity p {
+                font-size: 16px;
+        }
+        .members .text {
+                color: #fff;
+                padding: 17.25%;
+        }
+        .members .text p {
+                font-size: 16px;
+        }
+}
+
+@media (min-width:770px) and (max-width: 991px) {
+        .opcity {
+                top: -8em;
+        }
+        .opcity h3 {
+                font-size: 20px;
+        }
+        .opcity p {
+                font-size: 10px;
+        }
+        .members .text {
+                color: #fff;
+                padding: 12.63%;
+                width: 100%;
+        }
+        .members .text p {
+                font-size: 14px;
+        }
+}
+
+@media (min-width:600px) and (max-width: 769px) {
+        .opcity {
+                top: -8em;
+        }
+        .opcity h3 {
+                font-size: 20px;
+        }
+        .opcity p {
+                font-size: 10px;
+        }
+        .members .text {
+                color: #fff;
+                padding: 9.15%;
+                width: 100%;
+        }
+        .members .text p {
+                font-size: 12px;
+        }
+}*/
+
+@media (min-width:100px) and (max-width: 776px) {
+        .member-discribtion {
+                position: relative;
+                top: -39px;
+        }
+}
+
+@media (min-width:100px) and (max-width: 991px) {
+        .team-members .row .job-description {
+                border-right: none;
+        }
+        .team-members .row .job-description h2 {
+                text-align: center;
+        }
+        .team-members .row .job-description p {
+                width: inherit;
+                text-align: center;
+        }
+        .team-members .row p {
+                text-align: center;
+                font-size: 18px;
+                width: 70%;
+                margin: 0 auto;
+        }
+}
+
+
+/* End Member */
+@media (min-width:992px) and (max-width:1199px) {
+
+        .project .heading h2 {
+                font-size: 27px;
+        }
+}
+@media (min-width:600px) and (max-width:759px) {
+        .project .heading h2 {
+                font-size: 17px;
+        }
+}
+
+@media (min-width:500px) and (max-width:599px) {
+        .project .heading h2 {
+                font-size: 14px;
+        }
+}
+
+@media (min-width:400px) and (max-width:499px) {
+        .project .heading h2 {
+                font-size: 11px;
+        }
+}
+
+@media (min-width:100px) and (max-width:399px) {
+
+        .project .heading h2 {
+                font-size: 9px;
+        }
+}
+
+@media (min-width:100px) and (max-width:991px) {
+        .project {
+                    margin: 3% 0;
+                background-image: url(../images/PROJECTS/2.png);
+                background-size: cover;
+        }
+        .project .heading {
+                height: auto;
+                margin: 0 auto;
+        }
+        .project .heading h2 {
+                color: #2b3990;
+                background: linear-gradient( 140deg, rgba(248, 248, 248, 0.8) 0%, rgba(252, 252, 252, 0.8) 100%);
+                right: 0%;
+                margin: 0 auto;
+                text-align: center;م
+                margin-top: 0;
+                padding: 3% 2%;
+                border-right: none;
+                width: 44%;
+                font-size: 21px;
+        }
+}
+
+
+/* Start Footer */
+
+
+@media (min-width:100px) and (max-width: 1200px) {
+        .icon_company ul {
+                text-align: center;
+        }
+        .icon_company ul li {
+                display: block;
+                margin: 4%;
+                font-family: fontR;
+        }
+        .icon_company ul li a {
+                border-right: none;
+
+}
+
+
+/* End  Footer */
